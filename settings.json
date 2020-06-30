@@ -1,0 +1,144 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "sync.gist": "3a7cc6517475c5ee6852496f10334cbb",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.colorTheme": "One Monokai",
+  "docthis.includeAuthorTag": true, //出现@Author
+  "docthis.includeDescriptionTag": true, //出现@Description
+  "docthis.authorName": "张平", //作者名字
+  "editor.quickSuggestions": {
+    "strings": true,
+    "markdown-pdf.executablePath": "~/Applications/Chrome Apps.localized"
+  },
+  "window.zoomLevel": -1,
+  "editor.lineHeight": 26,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "git.enableSmartCommit": true,
+  //根据文件后缀名定义vue文件类型
+  "files.associations": {
+    "*.vue": "vue",
+    "*.wpy": "vue",
+    "*.wxml": "html",
+    "*.wxss": "css",
+    "*.hbs": "html",
+    "*.tpl": "html",
+    "*.html": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnSave": true, // 保存自动格式化
+  "editor.formatOnPaste": false,
+  "eslint.autoFixOnSave": true, // 保存时eslint自动修复错误
+  // 使用插件格式化 html
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // 屏蔽vetur的js格式化
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 160,
+      "singleQuote": false,
+      "wrapAttributes": false,
+      "sortAttributes": false
+    },
+    "prettier": {
+      "eslintIntegration": true,
+      "singleQuote": true,
+      "semi": false,
+      "tabWidth": 2,
+      "trailingComma": "all",
+      "printWidth": 160,
+      "arrowParens": "avoid",
+      "proseWrap": "never",
+      "bracketSpacing": true
+    }
+  },
+  "prettier.eslintIntegration": true, // 开启 eslint 支持
+  "prettier.singleQuote": true, // 使用单引号
+  "prettier.semi": false, // 结尾不加分号
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all", // 最后一个对象元素加逗号
+  "prettier.printWidth": 160, // 换行字符串阈值
+  "prettier.arrowParens": "avoid", // (x) => {} 是否要有小括号 avoid/always
+  "prettier.proseWrap": "never",
+  "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格
+  // "prettier.requireConfig": false, // Require a 'prettierconfig' to format prettier
+  // "prettier.tslintIntegration": false, // 不让prettier使用tslint的代码格式进行校验
+  "fileheader.Author": "张平",
+  "fileheader.LastModifiedBy": "张平",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sass]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "vetur.experimental.templateInterpolationService": false,
+  "gitProjectManager.baseProjectsFolders": ["/Users/zhangping/git"],
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#64FFDA",
+    "list.activeSelectionForeground": "#64FFDA",
+    "list.inactiveSelectionForeground": "#64FFDA",
+    "list.highlightForeground": "#64FFDA",
+    "scrollbarSlider.activeBackground": "#64FFDA50",
+    "editorSuggestWidget.highlightForeground": "#64FFDA",
+    "textLink.foreground": "#64FFDA",
+    "progressBar.background": "#64FFDA",
+    "pickerGroup.foreground": "#64FFDA",
+    "tab.activeBorder": "#64FFDA",
+    "notificationLink.foreground": "#64FFDA",
+    "editorWidget.resizeBorder": "#64FFDA",
+    "editorWidget.border": "#64FFDA",
+    "settings.modifiedItemIndicator": "#64FFDA",
+    "settings.headerForeground": "#64FFDA",
+    "panelTitle.activeBorder": "#64FFDA",
+    "breadcrumb.activeSelectionForeground": "#64FFDA",
+    "menu.selectionForeground": "#64FFDA",
+    "menubar.selectionForeground": "#64FFDA",
+    "editor.findMatchBorder": "#64FFDA",
+    "selection.background": "#64FFDA40"
+  },
+  "materialTheme.accent": "Bright Teal",
+  "material-icon-theme.opacity": 1,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true
+}
